@@ -1,19 +1,21 @@
 # 🧠 Analysis Code for Age-Specific Genetic Mechanisms of Neuropsychiatric Disorders Using the tDESE Framework
 
-This repository contains code for analyzing the **age-dependent genetic mechanisms** of neuropsychiatric disorders using the **tDESE framework**. The analysis integrates **GWAS summary statistics** with **developmental dynamic gene expression data** to identify critical age windows of genetic risk, characterize risk genes, and evaluate their biological relevance.
+This repository contains code for analyzing the **age-dependent genetic mechanisms** of neuropsychiatric disorders using the **tDESE framework**.  
+The **core implementation of tDESE** is available on the [KGGSUM platform](https://pmglab.top/kggsum), where users can explore and apply the method directly.  
+This repository provides the analysis and visualization code used in our study.
 
 ---
 
 ## 🧹 Developmental Expression Data Processing
 
 - **`preprocess/preprocess_gene_expr.py`**  
-  Preprocesses developmental dynamic expression data from PsychENCODE, including quality control and extraction of covariates.
+  🧪 Preprocesses developmental dynamic expression data from PsychENCODE, including quality control and extraction of covariates.
 
 - **`preprocess/predict_age_expr_by_gam.py`**  
   📈 Fits gene expression trajectories across age using a generalized additive model (GAM), with sex and RNA quality as covariates, and predicts the age-related component of expression at each year.
 
 - **`preprocess/predict_age_expr_by_gam_by_sex.py`**  
-  Performs GAM fitting and prediction separately for males and females.
+  ⚧ Performs GAM fitting and prediction separately for males and females.
 
 ---
 
@@ -48,4 +50,3 @@ This repository contains code for analyzing the **age-dependent genetic mechanis
 
 ## 📖 Citation
 If you use this code or framework in your research, please cite our work accordingly once published.
-
