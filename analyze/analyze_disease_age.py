@@ -15,7 +15,7 @@ from matplotlib.patches import Patch
 from scipy.stats import spearmanr
 from tqdm import tqdm
 
-from analyze.analyze_disease_assoc_gene import KGGSUM
+from analyze.analyze_disease_gene import KGGSUM
 from para import REAL_ASSOC, AGE_ONSET, REAL_RNA, ENSG_annot
 from preprocess.predict_age_expr_by_gam import extract_age
 from util import unified_path, make_dir, log, go_enrich_plot, heatmap_color_rstyle

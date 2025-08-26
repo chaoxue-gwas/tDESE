@@ -13,8 +13,8 @@ from matplotlib import pyplot as plt
 from matplotlib.lines import Line2D
 from matplotlib.patches import Patch
 
-from analyze.analyze_disease_assoc_gene import KGGSUM
-from analyze.analyze_disease_cell import get_range_by_median, get_range_by_ci_median, extract_mean_expression, \
+from analyze.analyze_disease_gene import KGGSUM
+from analyze.analyze_disease_age import get_range_by_median, get_range_by_ci_median, extract_mean_expression, \
     replace_gene_symbol, extract_mean_and_ci_expression, gene_disease_correlation
 from para import REAL_ASSOC, AGE_ONSET, REAL_RNA
 from util import unified_path, make_dir, log
