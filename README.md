@@ -15,7 +15,7 @@ This repository provides the analysis and visualization code used in our study.
   📈 Fits gene expression trajectories across age using a generalized additive model (GAM), with sex and RNA quality as covariates, and predicts the age-related component of expression at each year.
 
 - **`preprocess/predict_age_expr_by_gam_by_sex.py`**  
-  ⚧ Performs GAM fitting and prediction separately for males and females.
+  🚻 Performs GAM fitting and prediction separately for males and females.
 
 ---
 
